@@ -1,0 +1,22 @@
+body{
+    font-family:Amiri;
+}
+ .nav-link ,.navbar-brand,form  button,input::placeholder{
+    color: gold !important;
+ }
+ .nav-link{
+    padding-right: 70px !important;
+ }
+ .nav-link:hover ,.nav-link.active{
+    color:gray !important;
+ }
+ header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.475),rgba(0, 0, 0, 0.412)),url(../images/film\ head.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ a:hover{
+    text-decoration: underline;
+ }
